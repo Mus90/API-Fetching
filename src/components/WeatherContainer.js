@@ -23,6 +23,7 @@ export default class WeekContainer extends Component {
 
   render() {
     const { timezone } = this.state.weather;
+    //I need to read temp and return it as h2
     //const { temp } = this.state.weather.current;
     return (
       <div>
