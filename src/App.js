@@ -1,9 +1,9 @@
 import React from "react";
-import WeekContainer from "./components/WeekContainer";
-
+import WeekContainer from "./components/WeatherContainer";
+import "./App.css";
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <WeekContainer />
     </div>
   );
