@@ -1,13 +1,9 @@
 import React from "react";
-import ApiApp from "./components/main/ApiApp";
+
 import "./App.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <ApiApp />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
